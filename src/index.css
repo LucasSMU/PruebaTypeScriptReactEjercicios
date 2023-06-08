@@ -1,0 +1,38 @@
+body{
+ display: grid;
+ place-content: center; 
+}
+
+
+ul{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+li{
+  border: 1px solid lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+}
+
+li > *{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img{
+  border-radius: 90px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
